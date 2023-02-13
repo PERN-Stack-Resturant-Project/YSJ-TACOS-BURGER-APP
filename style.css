@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* menu design */
+#menu{
+    background:whitesmoke;
+}
+.menu-iteam a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: rgb(128,129,129);
+    font-weight: 300;
+}
+.menu-iteam a:hover{
+    background: rgb(250,212,218);
+}
+#food-container{
+    background: whitesmoke;
+    overflow: scroll;
+    overflow-x:hidden;
+    box-sizing: content-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+    z-index: 1;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#header .address{
+    font-size: 20px;
+}
+.your-address{
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 150px;
+    overflow: hidden;
+}
+#cart{
+    background:lavender;
+}
