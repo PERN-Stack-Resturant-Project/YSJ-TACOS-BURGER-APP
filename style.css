@@ -20,7 +20,7 @@ body{
 #menu{
     background:whitesmoke;
 }
-.menu-iteam a{
+.menu-item a{
     display: block;
     text-decoration: none;
     font-size: 20px;
@@ -29,7 +29,7 @@ body{
     color: rgb(128,129,129);
     font-weight: 300;
 }
-.menu-iteam a:hover{
+.menu-item a:hover{
     background: rgb(250,212,218);
 }
 #food-container{
@@ -62,6 +62,48 @@ body{
     border-radius: 5px;
     width: 150px;
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.add-box i{
+    font-size: 20px;
+}
+
+.utill i, .user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid crimson;
+    padding: 8px 16px;
+    color: crimson;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.utill i:active{
+    color: white;
+}
+.food-items{
+
+    
+}
+#burger,#burger-frenchfries-coke,#crunchwrap,#mexican-pizza,#bean-supreme-chalupa{
+  margin-top: 40px;
+}
+#crunchwrap #item-card,#mexican-pizza #item-card{
+    background: rgb(218,253,18);
+}
+#bean-supreme-chalupa #item-card,#burger-frenchfries-coke #item-card{
+    background: rgb(221,243,243);
+}
+#category-name,.item-menu{
+    margin: 10px;
+    font-size: 35px;
+    color: coral;
+}
+#item-card{
+    
 }
 #cart{
     background:lavender;
